@@ -15,6 +15,7 @@ public class MyMain {
       int tsix = 0;
 
       for (int i = 0; i < rounds; i++) {
+          //local boolean variable
         boolean success = false;
         for (int k = 0; k < 6; k++) {
           if ((int)(Math.random() * 6) + 1 == 6) {
